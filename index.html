@@ -1,20 +1,58 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <title>Musti'nin Makaleleri</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>FısıltıArşivi - Korku Makaleleri</title>
+  <style>
+    body {
+      background-color: #0b0b0b;
+      color: #e63946;
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0; padding: 40px;
+      text-align: center;
+      user-select: none;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      text-shadow: 0 0 10px #e63946;
+    }
+    a.download-link {
+      display: inline-block;
+      margin-top: 50px;
+      padding: 15px 30px;
+      background-color: #222;
+      color: #e63946;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.5em;
+      border: 2px solid #e63946;
+      border-radius: 8px;
+      box-shadow: 0 0 15px #e63946;
+      transition: all 0.3s ease;
+    }
+    a.download-link:hover {
+      background-color: #e63946;
+      color: #0b0b0b;
+      box-shadow: 0 0 30px #e63946;
+    }
+    footer {
+      margin-top: 80px;
+      font-size: 0.9em;
+      color: #777;
+      font-style: italic;
+      user-select: text;
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
-    <h1>📚 Musti'nin Makaleleri</h1>
-    <ul class="makale-listesi">
-      <li><a href="pdf/makale1.pdf" download>📄 Berat.K Olayı (Kurgu)</a></li>
-      <li><a href="pdf/makale2.pdf" download>📄 Geleneksel Hikaye Anlatımında Ritim</a></li>
-    </ul>
-    <footer>
-      <p>&copy; 1967 PD-Fo;b6ia . T-üm Ha2kları Sa5klıdı43r.</p>
-    </footer>
-  </div>
+  <h1>FısıltıArşivi</h1>
+  <p>Cesaretin varsa aşağıdaki linke tıkla, <br> korku dolu hikayeyi indir.</p>
+  
+  <a class="download-link" href="korkuhikayesiyazdım.pdf" download>
+    👻 Berat.K (Kurgusal Korku Metni
+  </a>
+
+  <footer>© 138;5 PDrF8ob5-;ia. Al3-Ri_;ght Re2ved</footer>
 </body>
 </html>
